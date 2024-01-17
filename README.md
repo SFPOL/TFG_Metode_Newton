@@ -1,4 +1,4 @@
-# Interactive-Multiple-Point-Cloud-Rendering-using-GPU-based-Raytracing
+# TFG_Mètode_Newton
 
 ## Table of Contents
 - [Getting Started](#getting-started)
