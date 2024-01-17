@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Modelling">
+      <UniqueIdentifier>{49660017-72ee-4af9-97b3-2ce38143e195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Rendering">
+      <UniqueIdentifier>{b79e11b4-07ec-40a4-98c3-54a14674bdea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Modelling\Lights">
+      <UniqueIdentifier>{d2ead417-cde0-447c-b9fc-e1137894b073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Modelling\Materials">
+      <UniqueIdentifier>{fe5baab2-9944-4a4f-9d84-43e583d1dbee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Modelling\Primitive">
+      <UniqueIdentifier>{962b41dc-b593-44d3-b621-9d58963ee0c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\General">
+      <UniqueIdentifier>{0df752db-801c-4be3-9a87-51f3c666eca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Shaders">
+      <UniqueIdentifier>{8dd040d5-fd8d-4faf-ad68-4ba047c2a9b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Objects">
+      <UniqueIdentifier>{ca917901-57dc-4211-8534-94a65f2002b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\imgui">
+      <UniqueIdentifier>{1a985122-acb3-48e9-841e-3c6bba79a1f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\imgui">
+      <UniqueIdentifier>{c36f2e3a-7031-47ca-a9f2-da2b0896473d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Archivos de encabezado\General</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Archivos de origen\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Archivos de origen\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Archivos de origen\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_glfw.cpp">
+      <Filter>Archivos de origen\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_opengl3.cpp">
+      <Filter>Archivos de origen\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Archivos de origen\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Archivos de origen\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyfiledialogs.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Archivos de encabezado\Modelling</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Archivos de encabezado\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Archivos de encabezado\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Archivos de encabezado\Modelling\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Archivos de encabezado\Modelling\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitives.h">
+      <Filter>Archivos de encabezado\Modelling\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Archivos de encabezado\Modelling\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Archivos de encabezado\General</Filter>
+    </ClInclude>
+    <ClInclude Include="libs.h">
+      <Filter>Archivos de encabezado\General</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Octree.h">
+      <Filter>Archivos de encabezado\Modelling\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="FlattenedNode.h">
+      <Filter>Archivos de encabezado\Modelling\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Archivos de encabezado\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Archivos de encabezado\Modelling\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Archivos de encabezado\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Archivos de encabezado\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_glfw.h">
+      <Filter>Archivos de encabezado\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl3.h">
+      <Filter>Archivos de encabezado\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Archivos de encabezado\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Archivos de encabezado\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Archivos de encabezado\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Archivos de encabezado\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Archivos de encabezado\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyfiledialogs.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="FlattenedMultiNode.h">
+      <Filter>Archivos de encabezado\Modelling\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiOctree.h">
+      <Filter>Archivos de encabezado\Modelling\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPointCloud.h">
+      <Filter>Archivos de encabezado\Modelling</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OBJFiles\airplane.ply">
+      <Filter>Archivos de recursos\Objects</Filter>
+    </None>
+    <None Include="fragment_core_Voxel_DDA.glsl">
+      <Filter>Archivos de recursos\Shaders</Filter>
+    </None>
+    <None Include="vertex_core.glsl">
+      <Filter>Archivos de recursos\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
